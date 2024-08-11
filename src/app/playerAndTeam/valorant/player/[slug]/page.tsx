@@ -16,7 +16,7 @@ export const generateStaticParams = async () => {
     }))
 }
 
-export async function generateMetaData({ params }: { params: { slug: string } }) {
+export async function generateMetadata({ params }: { params: { slug: string } }) {
     const FeatureSlug = await getValorantSlug(params.slug)
 
     return {
@@ -26,7 +26,7 @@ export async function generateMetaData({ params }: { params: { slug: string } })
     }
 }
 
-export default async function ({ params }: { params: { slug: string } }) {
+export default async function Player({ params }: { params: { slug: string } }) {
     const gotData1 = await getValorantSlug(params.slug)
 
     const options: Options = {

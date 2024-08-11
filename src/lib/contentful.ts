@@ -1,7 +1,7 @@
 import resolveResponse from "contentful-resolve-response"
-const SpaceId = process.env.CONTENTFUL_SPACE_ID
-const Token = process.env.CONTENTFUL_ACCESS_TOKEN
-const MainURL = process.env.CONTENTFUL_MAIN_URL
+const SpaceId = process.env.CONTENTFUL_SPACE_ID as string
+const Token = process.env.CONTENTFUL_ACCESS_TOKEN as string
+const MainURL = process.env.CONTENTFUL_MAIN_URL as string
 
 export const getFeature = async () => {
     const MakeResponse = await fetch(

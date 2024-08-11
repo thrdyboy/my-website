@@ -8,6 +8,7 @@ export interface Teams {
                 { url: string; }; 
             }; 
         };
-        hometown: string
+        specialization: string;
+        hometown: string;
     }
 }

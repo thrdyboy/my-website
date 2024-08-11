@@ -18,7 +18,7 @@ export default async function About() {
                         Overview
                     </h3>
                     <p className="mt-4 text-base leading-7 text-neutral-50">
-                        Thrdy Esports, a name synonymous with competitive gaming excellence, has its main base in Jakarta, Indonesia, and a dedicated Valorant base in Seoul, South Korea. With divisions in Valorant, Dota 2, and PUBG, the organization has carved out a significant presence in the esports landscape. Guided by a distinct Violet Light Purple crest, Thrdy Esports embodies a legacy of passion, driven by its founder's deep-rooted love for gaming.
+                        Thrdy Esports, a name synonymous with competitive gaming excellence, has its main base in Jakarta, Indonesia, and a dedicated Valorant base in Seoul, South Korea. With divisions in Valorant, Dota 2, and PUBG, the organization has carved out a significant presence in the esports landscape. Guided by a distinct Violet Light Purple crest, Thrdy Esports embodies a legacy of passion, driven by its founder&apos;s deep-rooted love for gaming.
                     </p>
                 </div>
 
@@ -28,10 +28,10 @@ export default async function About() {
                     </h3>
                     <ul className="list-disc list-inside mt-4 space-y-4 text-base leading-7 text-neutral-100">
                         <li className="text-neutral-50">
-                            <strong className="text-stone-100">Jakarta, Indonesia</strong>: Serving as the heart of Thrdy Esports, the Jakarta base is where the organization’s operations and strategic planning are centered. This location is crucial for managing the diverse and dynamic teams competing across various titles.
+                            <strong className="text-stone-100">Jakarta, Indonesia</strong>: Serving as the heart of Thrdy Esports, the Jakarta base is where the organization&apos;s operations and strategic planning are centered. This location is crucial for managing the diverse and dynamic teams competing across various titles.
                         </li>
                         <li className="text-neutral-50">
-                            <strong className="text-stone-100">Seoul, South Korea</strong>: The Valorant division finds its home in Seoul, chosen for its significance as a major hub for Regional League LAN events. South Korea’s thriving esports scene makes it the perfect location for a dedicated Valorant base, allowing the team to train and compete in a highly competitive environment. It's also our Bootcamp for Valorant Champions Tour Pacific League
+                            <strong className="text-stone-100">Seoul, South Korea</strong>: The Valorant division finds its home in Seoul, chosen for its significance as a major hub for Regional League LAN events. South Korea&apos;s thriving esports scene makes it the perfect location for a dedicated Valorant base, allowing the team to train and compete in a highly competitive environment. It&apos;s also our Bootcamp for Valorant Champions Tour Pacific League
                         </li>
                     </ul>
                 </div>
@@ -45,7 +45,7 @@ export default async function About() {
                             <strong className="text-neutral-50">Valorant</strong>: With a dedicated base in Seoul, the Valorant team is well-positioned to compete at the highest levels, taking advantage of the VCT Pacific LAN infrastructure and intense competitive atmosphere. For your Information, we also get the Ascension from Indonesia Challengers League into winning against DPlus from Korea 3-2
                         </li>
                         <li>
-                            <strong className="text-neutral-50">Dota 2</strong>: Thrdy’s Dota 2 team is a force to be reckoned with, blending strategy, teamwork, and skill to dominate the global stage. Based out of Jakarta, this team reflects the organization's roots and commitment to excellence.
+                            <strong className="text-neutral-50">Dota 2</strong>: Thrdy&apos;s Dota 2 team is a force to be reckoned with, blending strategy, teamwork, and skill to dominate the global stage. Based out of Jakarta, this team reflects the organization&apos;s roots and commitment to excellence.
                         </li>
                         <li>
                             <strong className="text-neutral-50">PUBG</strong>: The PUBG division showcases the versatility and adaptability of Thrdy Esports, competing in a fast-paced and ever-evolving battle royale scene. The team thrives on the excitement and unpredictability that PUBG offers.
@@ -81,7 +81,7 @@ export default async function About() {
                 </div>
 
                 <div className="grid-container">
-                    <p className="text-wrap mb-7 mt-10 text-neutral-50">Here's our Main Department members in our Organization</p>
+                    <p className="text-wrap mb-7 mt-10 text-neutral-50">Here&apos;s our Main Department members in our Organization</p>
                     <div className="grid grid-cols-3 gap-4">
                         {
                             getData.map((items: Teams) => {

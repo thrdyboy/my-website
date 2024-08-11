@@ -35,7 +35,7 @@ export default function Home() {
         <div className="mt-10 p-4 md:p-8 lg:p-12 bg-indigo-900 rounded-lg shadow-lg">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Get to know Our Merchandise</h2>
           <p className="mb-4">
-            Here's our Merchandise. If you want to know more about it, click the "View More" button below.
+            Here&apos;s our Merchandise. If you want to know more about it, click the &quot &quot;View More&quot; button below.
           </p>
           <div className="text-center">
             <Link

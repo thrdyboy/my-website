@@ -14,15 +14,22 @@ export const generateStaticParams = async () => {
         params: {
             slug: feature.fields.slug
         }
-    }))
+    })) 
 }
 
-export async function generateMetaData({params}: {params: {slug: string}}) {
+export async function generateMetadata({params}: {params: {slug: string}}) {
     const FeatureSlug = await getFeatureSlug(params.slug)
 
     return {
         title: FeatureSlug.fields.title,
-        images: `https:${FeatureSlug.fields.images.fields.file.url}`,
+        openGraph: {
+            images: [ 
+                {
+                    url: `https:${FeatureSlug.fields.images.fields.file.url}`,
+                    alt: FeatureSlug.fields.title,
+                },
+            ]
+        },
         category: FeatureSlug.fields.category
     }
 }
